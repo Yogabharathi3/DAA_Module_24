@@ -5,9 +5,13 @@ To write a python program using brute force method of searching for the given su
 
 ## Algorithm
 1.Start from index 0 in the main string and try to match the substring at every position.
+
 2.Compare characters one by one from the current position in the main string to the substring.
+
 3.If all characters match, return the current index as the starting point of the match.
+
 4.If a mismatch is found, move to the next index in the main string and repeat.
+
 5.If no match is found after checking all valid positions, return -1.
 ## Program:
 ```
